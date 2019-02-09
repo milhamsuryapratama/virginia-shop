@@ -1,0 +1,661 @@
+@font-face{
+    font-family: 'Pacifico';
+    src: URL('../fonts/Pacifico-Regular.ttf') format('truetype');
+}
+#brand{
+    font-family: 'Pacifico';
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* width: 1333px; */
+}
+#nav-pertama{
+    /* border: 1px solid #002fff; */
+    padding: 0px 0px;
+    margin: 0;
+    background: #02c4ff;
+    width: 100%;
+}
+ul#items-nav-pertama{
+    padding: 0;
+    list-style: none;
+    padding: 0px;
+    margin-top:-2px;
+    margin-bottom: -1px;
+}
+.lima-item-nav-pertama a{
+    margin-right: 80px;
+}
+ul#items-nav-pertama li{
+    display: inline-block;
+    padding: 5px 10px;
+    /* border: 1px solid #0062ff; */
+    margin-left:-5px;
+
+}
+ul#items-nav-pertama li a{
+    color: #222;
+    font-size: 13px;
+    padding: 0px 10px;
+    transition: .2s;
+}
+ul#items-nav-pertama li a:hover{
+    color: white;
+}
+#nav-kedua{
+    padding: 20px 30px 5px 30px;
+    background: rgb(154, 230, 253);
+    /* border-bottom: 1px solid ; */
+}
+#cari{
+    width: 600px;
+    padding: 8px 180px 8px 5px;
+    margin-right: -200px;
+}
+#cari::placeholder{
+    font-size: 13px;
+    padding: 5px
+}
+#tombol-cari{
+    background: #02C4FF;
+    color: white;
+    border: none;
+    padding: 6px 20px;
+    border-radius: 0px 3px 3px 0px;
+    transition: .2s;
+}
+#tombol-cari:hover{
+    background: rgb(0, 152, 199);
+}
+#tombol-cari i{
+    font-size: 25px;
+    font-weight: 100;
+}
+#dropdown-cari{
+    font-size: 13px;
+    color: #999999;
+    padding: 11px 20px;
+    border-left: 1px solid #cfcfcf;
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+#id-tombol{
+    position: relative;
+    left: -21px;
+}
+#items-nav-kedua{
+    list-style: none;
+}
+#items-nav-kedua li{
+    
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+#items-nav-kedua li a{
+    color: #333;
+    font-size: 14px;
+    transition: 0.3s;
+}
+#items-nav-kedua li a:hover{
+    color: blue;
+}
+.cart-number{
+    position: absolute;
+    top: 60px;
+}
+.dua-item-nav-kedua{
+    position: relative;
+    top: -10px;
+}
+#kategori{
+    background-color: #02C4FF;
+}
+
+.brand a{
+    color: #111;
+    font-size: 13px;
+    transition: .2s;
+}
+.brand a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#categori-brand-pertama{
+    padding: 15px;
+    background: rgb(108, 221, 255);
+}
+.item-kategori{
+    list-style: none;
+}
+.item-kategori li{
+    display: inline-block;
+    position: relative;
+   top: 13px;
+   padding: 0px 10px;
+}
+.item-kategori li a{
+    color: #111;
+    transition: .2s;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.item-kategori li a:hover{
+    background: rgb(0, 153, 255);
+    text-decoration: none;
+}
+#list-kategori{
+    background-color: #FFFFFF;
+}
+
+/* carouser */
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-slide {
+    
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    background: #fff;
+    overflow: hidden;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+#list-kategori ul{
+    list-style: none;
+}
+#list-kategori ul li{
+    padding: 10px 0px;
+}
+#list-kategori ul li a{
+    font-size: 14px;
+}
+span.women{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -3044px;
+}
+.men{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -2175px;
+}
+.phones{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -2263px;
+}
+.computer{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -675px;
+}
+.costumer{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -763px;
+}
+.jewelry{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -1065px;
+}
+.home{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -851px;
+}
+.bags{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -399px;
+}
+.toys{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -1153px;
+}
+.sports{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -2768px;
+}
+.health{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -487px;
+}
+.automobiles{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -311px;
+}
+.tools{
+    padding: 2px 10px;
+    background-image: url('../img/icons.png');
+    background-repeat: no-repeat;
+    background-position:0 -939px;
+}
+.barang-di-categori{
+    display: inline;
+}
+.barang-di-categori span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 90;
+}
+#list-kategori ul li a{
+    text-decoration: none;
+    color: #999999;
+    transition: .2s;
+    font-size: 13px;
+}
+#list-kategori ul li a:hover{
+    color: darkred;
+}
+.owl-carousel{
+    height: 380px;
+    overflow: hidden;
+}
+
+div.ali0{
+    margin-top: 10px;
+    width: 200px;
+    transform: translateY(0px);
+    transition: .2s;
+}
+div.ali0:hover{
+    transform: translateY(-5px);
+    transition: .2s;
+}
+div.ali0 .title_span{
+    z-index: 20;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+div.ali0 .pride_span{
+    z-index: 20;
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+}
+.foto-ali0{
+    transform: translateY(0px);
+    transition: .2s;
+}
+#item-flash{
+    background: #FFFFFF;
+    padding: 20px 0px 60px 0px;
+}
+#item-flash a{
+    position: absolute;
+    right: 10px;
+    top: 60px; 
+    color: #999;
+    text-decoration: none;
+    transition: .2s;
+}
+#item-flash a:hover{
+    color: darkred;
+}
+#item-flash div div{
+    position: relative;
+    top:-30px;
+    margin-bottom: 90px;
+}
+.ali2{
+    opacity: .9;
+    transition: .2s;
+}
+.ali2:hover{
+    opacity: 1;
+}
+#inspirasi{
+    padding: 20px 0px;
+    background: #02C4FF;
+}
+div.ali4 div{
+    margin-bottom: 20px;
+}
+div.ali4 div a img{
+    opacity: 1;
+    transform: scale(1);
+    transition: .2s;
+    border-radius: 5px;
+}
+div.ali4 div a img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 13px grey;
+    opacity: .9;
+}
+#penyambung{
+    width: 100px;
+    height: 500px;
+    background: #02C4FF;
+    position: absolute;
+    right: 0;
+    top: 700px;
+}
+#ali5{
+    margin-top: 20px;
+}
+#all-item{
+    background: white;
+    margin-bottom: -20px;
+}
+#div-all-item{
+    padding: 20px 0px;
+}
+#div-all-item .row div.col-md-3{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.detail{
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+   background: rgba(154, 230, 253, 0.449);
+   padding: 10px;
+   color: white;
+   text-shadow: 0px 0px 5px black;
+}
+h3.lead{
+    padding: 5px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    transition: .2s;
+}
+h3.lead:hover{
+    border-radius: 5px;
+}
+#footer{
+    z-index: 20;
+    background: rgb(255, 255, 255);
+}
+#footer div.row div.col-sm-2{
+    padding: 30px 20px;
+    border: 1px solid #eee;
+}
+.txt_p_footer{
+    font-size: 20px;
+    margin-top:10px;
+}
+.txt_p1_footer{
+    font-size: 13px;
+    color: #999;
+
+}
+#footer2{
+    border: 1px solid #ddd;
+    background: white;
+    padding: 20px 0px;
+}
+a.medsos{
+    padding: 5px;
+    margin: 5px;
+    
+}
+a.medsos:hover{
+    text-decoration: none;
+}
+a.medsos i{
+    font-size: 20px;
+}
+#footer3{
+    margin-top: 20px;
+    padding: 20px;
+    background: #e8e8e8;
+}
+#footer3 div div.col-sm-5, #footer3 div div.col-sm-5 small a{
+    color: #999;
+}
+#footer4{
+    background: #222;
+    padding: 20px;
+    font-size: 13px;
+    color:white;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.icon_header i{
+    font-size:40px;
+}
+.icon_header3 i{
+    font-size: 40px;
+}
+.icon_header3:hover{
+    text-decoration: none;
+}
+#keatas{
+    z-index: 40;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #02C4FF;
+    padding: 7px 13px;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: translateX(60px) scale(0.1);
+    transition: .3s;
+    color: white;
+    border: 2px solid white;
+}
+#keatas:hover{
+    background: rgb(2, 158, 255);
+}
+#keatas.active{
+    transform: translateX(0px);
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1441px){
+    .cart-number{
+        position: relative;
+        top: 0px;
+    }
+}
+@media (max-width: 1025px){
+    .cart-number{
+        position: absolute;
+        top: 130px;
+    }
+    #list-kategori ul li{
+        position: relative;
+        left: -20px;
+        width: 200px;
+    }
+    #penyambung{
+        display: none;
+    }
+    .iii{
+        padding-left: 15px;
+    }
+    .detail{
+        width: 218px;
+    }
+}
+@media (max-width: 769px){
+    .cart-number{
+        position: absolute;
+        top: 210px;
+    }
+    #list-kategori ul li{
+        position: relative;
+        left: -55px;
+        width: 200px;
+    }
+    div.brand b{
+        font-size: 13px;
+    }
+    .detail{
+        width: 158px;
+    }
+}
+@media (max-width: 426px){
+    a.navbar-brand, button.navbar-toggle{
+        display: none;
+    }
+    #nav-pertama{
+        text-align: center;
+    }
+    .lima-item-nav-pertama a{
+        display: none;
+    }
+    #cari{
+        width: 270px;
+    }
+    span.dropdown{
+        display: none;
+    }
+    #tombol-cari{
+        position: relative;
+        left: 160px;
+    }
+    #items-nav-kedua li h1{
+        position: relative;
+        left: 50px;
+    }
+    .icon_header{
+        display: none;
+    }
+    .icon_header3{
+        position: relative;
+        left: 40px;
+    }
+    .iii{
+        position: relative;
+        top: -10px;
+    }
+    #list-kategori{
+        display: none;
+        border-width: 20px;
+    }
+    .ali0{
+        display: none;
+    }
+    #ali10 div.col-md-2{
+        margin-bottom: 200px;
+        position: relative;
+        left: -120px;
+    }
+    .ali2{
+        width: 150px;
+    }
+    div#item-flash{
+       height: 1350px;
+    }
+    .detail{
+        width: 183px;
+    }
+    #footer2{
+        text-align: center;
+    }
+    .owl-drag{
+        height: 280px;
+    }
+}
+@media (max-width: 412px){
+    .detail{
+        width: 176px;
+    }
+}
+@media (max-width: 376px){
+    .detail{
+        width: 157px;
+    }
+    #items-nav-kedua li h1{
+        position: relative;
+        left: 30px;
+    }
+    #ali10 div.col-md-2{
+        margin-bottom: 200px;
+        position: relative;
+        left: -100px;
+    }
+    .dua-item-nav-kedua{
+        left: -10px;
+    }
+    .item-kategori{
+        display: none;
+    }
+    .owl-drag{
+        margin-top: 20px;
+        height: 250px;
+    }
+}
+@media (max-width: 361px){
+    .detail{
+        width: 150px;
+    }
+}
+@media (max-width: 321px){
+    #items-nav-kedua li h1{
+        position: relative;
+        left: 5px;
+    }
+    .dua-item-nav-kedua{
+        left: -45px;
+    }
+    .icon_header3{
+        position: relative;
+        left: -0px;
+    }
+    a#ali14{
+        position: relative;
+        top: -1380px;
+        left: 200px;
+    }
+    #ali10 div.col-md-2{
+        margin-bottom: 200px;
+        position: relative;
+        left: -70px;
+    }
+    .detail{
+        width: 130px;
+    }
+    .detail{
+        font-size: 13px;
+        padding: 0px;
+    }
+    .detail h5{
+        font-size: 14px;
+
+    }
+}
